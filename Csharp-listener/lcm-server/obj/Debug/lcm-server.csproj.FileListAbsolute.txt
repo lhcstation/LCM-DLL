@@ -1,0 +1,7 @@
+C:\Users\18037\Downloads\lcm\lcm-dotnet\bin\Debug\lcm-server.exe
+C:\Users\18037\Downloads\lcm\lcm-dotnet\bin\Debug\lcm-server.pdb
+C:\Users\18037\Downloads\lcm\lcm-dotnet\lcm-server\obj\Debug\lcm-server.csproj.AssemblyReference.cache
+C:\Users\18037\Downloads\lcm\lcm-dotnet\lcm-server\obj\Debug\lcm-server.csproj.CoreCompileInputs.cache
+C:\Users\18037\Downloads\lcm\lcm-dotnet\lcm-server\obj\Debug\lcm-server.csproj.CopyComplete
+C:\Users\18037\Downloads\lcm\lcm-dotnet\lcm-server\obj\Debug\lcm-server.exe
+C:\Users\18037\Downloads\lcm\lcm-dotnet\lcm-server\obj\Debug\lcm-server.pdb
