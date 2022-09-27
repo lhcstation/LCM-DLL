@@ -1,0 +1,7 @@
+﻿  listener-main.cpp
+C:\Users\18037\Downloads\lcm\lcm\lcm-cpp-impl.hpp(144,5): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm-cpp-impl.hpp(368,43): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_coretypes.h(436,40): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_coretypes.h(453,48): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\build\lcmgen\exlcm\example_t.hpp(204,39): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+LINK : fatal error LNK1104: 无法打开文件“..\lcm\Debug\lcm.lib”

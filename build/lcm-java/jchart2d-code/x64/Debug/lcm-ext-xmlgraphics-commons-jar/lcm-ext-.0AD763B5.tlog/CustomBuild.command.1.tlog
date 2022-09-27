@@ -1,0 +1,30 @@
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\27A2C1FB1F6C9AC5E15966F9B4BCE4A4\XMLGRAPHICS-COMMONS-1.3.1.JAR.RULE
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -E make_directory C:/Users/18037/Downloads/lcm/build/lcm-java/jchart2d-code/ext
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -E copy C:/Users/18037/Downloads/lcm/lcm-java/jchart2d-code/ext/xmlgraphics-commons-1.3.1.jar C:/Users/18037/Downloads/lcm/build/lcm-java/jchart2d-code/ext/xmlgraphics-commons-1.3.1.jar
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\49750C46E18BD922D67FF48F817FFA34\LCM-EXT-XMLGRAPHICS-COMMONS-JAR.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\LCM-JAVA\JCHART2D-CODE\CMAKELISTS.TXT
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/lcm-java/jchart2d-code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,30 @@
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\ECF1A283643D1B2EB7B6AD92DD5049C4\LCM-LOGPLAYER-GUI.RULE
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -E make_directory C:/Users/18037/Downloads/lcm/build/lcm-java
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -E copy C:/Users/18037/Downloads/lcm/lcm-java/lcm-logplayer-gui.sh C:/Users/18037/Downloads/lcm/build/lcm-java/lcm-logplayer-gui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\A8CFD6E9FFF58D29BDBB5CBB8DC89A54\LCM-LOGPLAYER-GUI-ALIAS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\LCM-JAVA\CMAKELISTS.TXT
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/lcm-logger/CMakeLists.txt
+  lcm_logger.c
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(51,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(193,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(297,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(312,48): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(546,20): warning C4996: 'g_mutex_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(549,27): warning C4996: 'g_thread_create': is deprecated. Use 'g_thread_new' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logger.c(598,5): warning C4996: 'g_mutex_free': 被声明为已否决
+  glib_util.c
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(172,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(179,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(191,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(197,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(199,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(206,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm-logger\glib_util.c(221,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+  正在生成代码...
+  lcm-logger.vcxproj -> C:\Users\18037\Downloads\lcm\build\lcm-logger\Debug\lcm-logger.exe

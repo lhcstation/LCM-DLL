@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/lcm-logger/CMakeLists.txt
+  lcm_logplayer.c
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logplayer.c(65,22): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logplayer.c(71,26): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcm-logger\lcm_logplayer.c(88,22): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  lcm-logplayer.vcxproj -> C:\Users\18037\Downloads\lcm\build\lcm-logger\Release\lcm-logplayer.exe

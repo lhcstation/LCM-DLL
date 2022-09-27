@@ -1,0 +1,10 @@
+package exlcm;
+struct example_t
+{
+    int8_t velID;
+    double time;
+    double velFrontcoorX;
+    double velFrontcoorY;
+    double velEndcoorX;
+    double velEndcoorY;
+}

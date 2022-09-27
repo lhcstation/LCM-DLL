@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A08C8315-13F7-314A-A7B3-59897B2CC7E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18037\Downloads\lcm\build;C:\Users\18037\Downloads\lcm;C:\Users\18037\Downloads\lcm\WinSpecific\include;C:\Users\18037\Downloads\lcm\WinSpecific\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18037\Downloads\lcm\build;C:\Users\18037\Downloads\lcm;C:\Users\18037\Downloads\lcm\WinSpecific\include;C:\Users\18037\Downloads\lcm\WinSpecific\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18037\Downloads\lcm\build;C:\Users\18037\Downloads\lcm;C:\Users\18037\Downloads\lcm\WinSpecific\include;C:\Users\18037\Downloads\lcm\WinSpecific\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18037\Downloads\lcm\build;C:\Users\18037\Downloads\lcm;C:\Users\18037\Downloads\lcm\WinSpecific\include;C:\Users\18037\Downloads\lcm\WinSpecific\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/18037/Downloads/lcm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGLib2.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGo.cmake;C:\Users\18037\Downloads\lcm\cmake\FindPython.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\config.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\cpack.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\functions.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\install.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\lcmConfig.cmake.in;C:\Users\18037\Downloads\lcm\lcm-cmake\version.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindJavaCommon.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPack.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPackComponent.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindLua.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageMessage.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonInterp.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonLibs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\GenerateExportHeader.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava\javaTargets.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;P:\Program Files\cmake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/18037/Downloads/lcm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGLib2.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGo.cmake;C:\Users\18037\Downloads\lcm\cmake\FindPython.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\config.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\cpack.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\functions.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\install.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\lcmConfig.cmake.in;C:\Users\18037\Downloads\lcm\lcm-cmake\version.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindJavaCommon.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPack.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPackComponent.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindLua.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageMessage.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonInterp.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonLibs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\GenerateExportHeader.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava\javaTargets.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;P:\Program Files\cmake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/18037/Downloads/lcm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGLib2.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGo.cmake;C:\Users\18037\Downloads\lcm\cmake\FindPython.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\config.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\cpack.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\functions.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\install.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\lcmConfig.cmake.in;C:\Users\18037\Downloads\lcm\lcm-cmake\version.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindJavaCommon.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPack.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPackComponent.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindLua.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageMessage.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonInterp.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonLibs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\GenerateExportHeader.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava\javaTargets.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;P:\Program Files\cmake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/18037/Downloads/lcm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\18037\Downloads\lcm\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGLib2.cmake;C:\Users\18037\Downloads\lcm\cmake\FindGo.cmake;C:\Users\18037\Downloads\lcm\cmake\FindPython.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\config.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\cpack.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\functions.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\install.cmake;C:\Users\18037\Downloads\lcm\lcm-cmake\lcmConfig.cmake.in;C:\Users\18037\Downloads\lcm\lcm-cmake\version.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindFrameworks.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeFindJavaCommon.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPack.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CPackComponent.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\CheckCXXSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindLua.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPackageMessage.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonInterp.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\FindPythonLibs.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\GenerateExportHeader.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\Windows.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava.cmake;P:\Program Files\cmake\share\cmake-3.24\Modules\UseJava\javaTargets.cmake.in;P:\Program Files\cmake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;P:\Program Files\cmake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\18037\Downloads\lcm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\ZERO_CHECK.vcxproj">
+      <Project>{70935B3E-AF24-362E-8532-7069D8ECAD49}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-java\jchart2d-code\jchart2d.vcxproj">
+      <Project>{CF1B2880-FE68-31FF-98E4-A999413DA561}</Project>
+      <Name>jchart2d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm\lcm.vcxproj">
+      <Project>{1F89C68C-BCCD-3DE2-B569-EB52C5BBF479}</Project>
+      <Name>lcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-buftest-receiver.vcxproj">
+      <Project>{B832D1BD-15C8-3720-80DA-C824FE98DFC2}</Project>
+      <Name>lcm-buftest-receiver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-buftest-sender.vcxproj">
+      <Project>{4C52F994-1182-3DA2-A36E-F6B8A87B3907}</Project>
+      <Name>lcm-buftest-sender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-java\jchart2d-code\lcm-ext-jide-oss-jar.vcxproj">
+      <Project>{552B5993-AC97-3ADB-AAF9-83D9149343C5}</Project>
+      <Name>lcm-ext-jide-oss-jar</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-java\jchart2d-code\lcm-ext-xmlgraphics-commons-jar.vcxproj">
+      <Project>{0AD763B5-D2B2-3CE9-A008-A7105319F51C}</Project>
+      <Name>lcm-ext-xmlgraphics-commons-jar</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcmgen\lcm-gen.vcxproj">
+      <Project>{E946F383-E893-32EA-AAD0-103E4893DD50}</Project>
+      <Name>lcm-gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-java\lcm-java.vcxproj">
+      <Project>{5CF9B1A5-5627-3AA8-8E4A-08A3A938BEB7}</Project>
+      <Name>lcm-java</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-logfilter.vcxproj">
+      <Project>{E61B70FA-F5F7-3EB6-98F6-A2B901E63182}</Project>
+      <Name>lcm-logfilter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-logger\lcm-logger.vcxproj">
+      <Project>{1430FA7C-8D51-3A40-A8B3-7AEB01A60F5B}</Project>
+      <Name>lcm-logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-logger\lcm-logplayer.vcxproj">
+      <Project>{3CD1A68B-BFB0-3A5E-B765-EA949796877E}</Project>
+      <Name>lcm-logplayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-java\lcm-logplayer-gui-alias.vcxproj">
+      <Project>{AFBF10A8-2839-362E-A776-D605AD13D255}</Project>
+      <Name>lcm-logplayer-gui-alias</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-python\lcm-python.vcxproj">
+      <Project>{34A4F006-C520-35BD-B3FB-3817AAB6F7E9}</Project>
+      <Name>lcm-python</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm-python\lcm-python-init.vcxproj">
+      <Project>{3F9A622F-555D-35DA-A152-EC878359BCA6}</Project>
+      <Name>lcm-python-init</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-sink.vcxproj">
+      <Project>{693B8A3A-853C-395C-B660-699B4A0A2D6E}</Project>
+      <Name>lcm-sink</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-source.vcxproj">
+      <Project>{7BE23321-07E5-3B8D-B878-63E5E678C36E}</Project>
+      <Name>lcm-source</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm\lcm-static.vcxproj">
+      <Project>{8951DDFB-9C76-3873-8CBF-F85FC60DCE21}</Project>
+      <Name>lcm-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\liblcm-test\lcm-tester.vcxproj">
+      <Project>{F7E989C2-861F-3032-8A85-AC5D07C3FF2D}</Project>
+      <Name>lcm-tester</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\WinSpecific\lcm-winport.vcxproj">
+      <Project>{ACEDFFB7-F557-38B8-8025-5603CF892708}</Project>
+      <Name>lcm-winport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18037\Downloads\lcm\build\lcm_use_file.vcxproj">
+      <Project>{2AA3EBC5-D444-38D0-8783-D389557FD748}</Project>
+      <Name>lcm_use_file</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

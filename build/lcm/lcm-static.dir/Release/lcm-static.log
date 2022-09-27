@@ -1,0 +1,233 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/lcm/CMakeLists.txt
+  eventlog.c
+C:\Users\18037\Downloads\lcm\lcm\eventlog.c(184,22): warning C4244: “初始化”: 从“__int64”转换到“off_t”，可能丢失数据
+  lcm.c
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(119,5): warning C4996: 'g_static_rec_mutex_init': is deprecated. Use 'g_rec_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(120,5): warning C4996: 'g_static_rec_mutex_init': is deprecated. Use 'g_rec_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(189,5): warning C4996: 'g_static_rec_mutex_free': is deprecated. Use 'g_rec_mutex_free' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(190,5): warning C4996: 'g_static_rec_mutex_free': is deprecated. Use 'g_rec_mutex_free' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(201,9): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(206,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(227,39): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(313,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(316,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(323,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(341,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(350,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(369,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(375,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(386,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(393,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(397,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(403,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(423,25): warning C4996: 'g_static_rec_mutex_unlock_full': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(425,13): warning C4996: 'g_static_rec_mutex_lock_full': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(444,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(495,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(497,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(503,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm.c(505,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+  lcm_file.c
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(51,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(79,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(97,43): warning C4244: “=”: 从“int64_t”转换到“long”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(226,28): warning C4996: 'g_thread_create': is deprecated. Use 'g_thread_new' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(296,71): warning C4244: “+=”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(260,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(301,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(306,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(322,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_file.c(330,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+  lcm_memq.c
+C:\Users\18037\Downloads\lcm\lcm\lcm_memq.c(63,5): warning C4996: 'g_mutex_free': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_memq.c(71,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_memq.c(80,19): warning C4996: 'g_mutex_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_memq.c(100,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lcm_mpudpm.c
+C:\Users\18037\Downloads\lcm\lcm\udpm_util.h(128,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(436,40): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(453,45): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(231,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(288,5): warning C4996: 'g_static_mutex_free': is deprecated. Use 'g_mutex_clear' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(289,5): warning C4996: 'g_static_mutex_free': is deprecated. Use 'g_mutex_clear' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(291,9): warning C4996: 'g_mutex_free': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(292,9): warning C4996: 'g_cond_free': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(359,26): warning C4244: “=”: 从“long”转换到“uint8_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(364,32): warning C4244: “=”: 从“long”转换到“uint16_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(399,29): warning C4133: “=”: 从“sockaddr *”到“sockaddr_in *”的类型不兼容
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(492,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(419,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(483,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(485,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(514,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(546,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(548,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(567,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(570,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(573,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(593,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(636,26): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(614,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(634,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(644,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(668,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(672,13): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(700,17): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(719,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(736,21): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(781,21): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(791,17): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(797,13): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(804,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(849,34): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(847,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(850,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(854,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(868,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(870,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(872,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(876,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(878,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(888,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(901,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(919,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(984,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1008,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1047,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1048,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1079,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1080,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1212,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1222,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1091,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1100,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1102,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1155,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1205,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1250,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1252,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1266,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1276,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1281,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1290,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1307,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1310,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1331,71): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1358,88): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1330,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1332,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1336,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1355,9): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1357,13): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1359,13): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1367,9): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1413,15): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1490,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1505,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1598,73): warning C4244: “函数”: 从“double”转换到“gint32”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1597,51): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1517,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1525,13): warning C4996: 'g_static_private_get': is deprecated. Use 'g_private_get' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1526,13): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1532,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1539,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1544,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1547,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1553,37): warning C4996: 'g_mutex_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1554,36): warning C4996: 'g_cond_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1557,5): warning C4996: 'g_static_private_set': is deprecated. Use 'g_private_set' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1583,24): warning C4996: 'g_thread_create': is deprecated. Use 'g_thread_new' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1602,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1607,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1624,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1627,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1629,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1636,5): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1679,5): warning C4996: 'g_static_mutex_init': is deprecated. Use 'g_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1680,5): warning C4996: 'g_static_mutex_init': is deprecated. Use 'g_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c(1683,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  lcm_tcpq.c
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(61,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(139,20): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(214,32): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(238,5): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(260,28): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(313,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c(381,28): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  lcm_udpm.c
+C:\Users\18037\Downloads\lcm\lcm\udpm_util.h(128,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(123,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(174,5): warning C4996: 'g_static_rec_mutex_free': is deprecated. Use 'g_rec_mutex_free' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(175,5): warning C4996: 'g_static_mutex_free': is deprecated. Use 'g_mutex_clear' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(177,9): warning C4996: 'g_mutex_free': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(178,9): warning C4996: 'g_cond_free': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(220,26): warning C4244: “=”: 从“long”转换到“uint8_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(245,29): warning C4133: “=”: 从“sockaddr *”到“sockaddr_in *”的类型不兼容
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(339,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(270,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(330,9): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(332,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(361,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(431,26): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(479,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(456,13): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(458,13): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(530,9): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(532,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(560,9): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(569,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(696,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(707,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(591,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(601,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(629,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(632,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(652,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(689,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(719,9): warning C4996: 'g_static_mutex_get_mutex_impl': is deprecated. Use 'GMutex' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(734,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(744,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(749,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(758,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(775,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(778,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(798,63): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(823,80): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(802,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(821,9): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(831,9): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(846,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(854,13): warning C4996: 'g_static_private_get': is deprecated. Use 'g_private_get' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(855,13): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(861,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(868,9): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(873,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(876,9): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(882,37): warning C4996: 'g_mutex_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(883,36): warning C4996: 'g_cond_new': 被声明为已否决
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(885,5): warning C4996: 'g_static_private_set': is deprecated. Use 'g_private_set' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1017,24): warning C4996: 'g_thread_create': is deprecated. Use 'g_thread_new' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1023,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1028,5): warning C4996: 'g_static_rec_mutex_lock': is deprecated. Use 'g_rec_mutex_lock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1045,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1051,5): warning C4996: 'g_static_rec_mutex_unlock': is deprecated. Use 'g_rec_mutex_unlock' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1093,5): warning C4996: 'g_static_rec_mutex_init': is deprecated. Use 'g_rec_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1094,5): warning C4996: 'g_static_mutex_init': is deprecated. Use 'g_mutex_init' instead
+C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c(1097,5): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  ringbuffer.c
+  udpm_util.c
+C:\Users\18037\Downloads\lcm\lcm\udpm_util.h(128,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+  channel_port_map_update_t.c
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(436,40): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(453,45): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+  channel_to_port_t.c
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(436,40): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcmtypes\../lcm_coretypes.h(453,45): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+  正在生成代码...
+  WinLCM.cpp
+  WinPorting.cpp
+C:\Users\18037\Downloads\lcm\lcm\windows\WinPorting.cpp(23,21): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\18037\Downloads\lcm\lcm\windows\WinPorting.cpp(43,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\18037\Downloads\lcm\lcm\windows\WinPorting.cpp(74,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  正在生成代码...
+  lcm-static.vcxproj -> C:\Users\18037\Downloads\lcm\build\lcm\Release\lcm-static.lib

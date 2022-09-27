@@ -1,0 +1,31 @@
+﻿  main.cpp
+C:\Users\18037\Downloads\lcm\lcm\lcm-cpp-impl.hpp(144,5): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm\lcm-cpp-impl.hpp(368,43): warning C4267: “=”: 从“size_t”转换到“int32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm/lcm_coretypes.h(436,40): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcm/lcm_coretypes.h(453,48): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+C:\Users\18037\Downloads\lcm\build\lcmgen\exlcm\example_t.hpp(204,39): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1390,1): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1432): message : 查看对正在编译的函数 模板 实例化“void std::vector<int16_t,std::allocator<int16_t>>::_Resize_reallocate<_Ty2>(const unsigned __int64,const _Ty2 &)”的引用
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1432): message : 查看对正在编译的函数 模板 实例化“void std::vector<int16_t,std::allocator<int16_t>>::_Resize_reallocate<_Ty2>(const unsigned __int64,const _Ty2 &)”的引用
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1454): message : 查看对正在编译的函数 模板 实例化“void std::vector<int16_t,std::allocator<int16_t>>::_Resize<std::_Value_init_tag>(const unsigned __int64,const _Ty2 &)”的引用
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1454): message : 查看对正在编译的函数 模板 实例化“void std::vector<int16_t,std::allocator<int16_t>>::_Resize<std::_Value_init_tag>(const unsigned __int64,const _Ty2 &)”的引用
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+P:\Program Files\MicrosoftVisualStudio2022\VC\Tools\MSVC\14.33.31629\include\vector(1452): message : 在编译 类 模板 成员函数“void std::vector<int16_t,std::allocator<int16_t>>::resize(const unsigned __int64)”时
+C:\Users\18037\Downloads\lcm\build\lcmgen\exlcm\example_t.hpp(176): message : 查看对正在编译的函数 模板 实例化“void std::vector<int16_t,std::allocator<int16_t>>::resize(const unsigned __int64)”的引用
+C:\Users\18037\Downloads\lcm\build\lcmgen\exlcm\example_t.hpp(29): message : 查看对正在编译的 类 模板 实例化“std::vector<int16_t,std::allocator<int16_t>>”的引用
+  lcm-example.vcxproj -> C:\Users\18037\Downloads\lcm\build\liblcm-test\Debug\lcm-example.exe

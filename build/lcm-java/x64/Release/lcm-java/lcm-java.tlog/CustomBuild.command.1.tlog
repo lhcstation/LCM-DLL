@@ -1,0 +1,66 @@
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\C547C96D5E847F73D95E4136B2F44965\JAVA_COMPILED_LCM-JAVA.RULE
+setlocal
+cd C:\Users\18037\Downloads\lcm\lcm-java
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -DCMAKE_JAVA_CLASS_OUTPUT_PATH=C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/lcm-java.dir -DCMAKE_JAR_CLASSES_PREFIX= -P "P:/Program Files/cmake/share/cmake-3.24/Modules/UseJava/ClearClassFiles.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\JDK8\jdk\bin\javac.exe" -source 1.8 -target 1.8 -classpath ";"C:/Users/18037/Downloads/lcm/lcm-java";"C:/Users/18037/Downloads/lcm/build/lcm-java";"C:/Users/18037/Downloads/lcm/build/lcm-java/jchart2d-code/jchart2d-3.2.2.jar -d C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/lcm-java.dir @C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/lcm-java.dir/java_sources
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -E touch C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/lcm-java.dir/java_compiled_lcm-java
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\C547C96D5E847F73D95E4136B2F44965\JAVA_CLASS_FILELIST.RULE
+setlocal
+cd C:\Users\18037\Downloads\lcm\lcm-java
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -DCMAKE_JAVA_CLASS_OUTPUT_PATH=C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/lcm-java.dir -DCMAKE_JAR_CLASSES_PREFIX= -P "P:/Program Files/cmake/share/cmake-3.24/Modules/UseJava/ClassFilelist.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\ECF1A283643D1B2EB7B6AD92DD5049C4\LCM.JAR.RULE
+setlocal
+cd C:\Users\18037\Downloads\lcm\build\lcm-java\CMakeFiles\lcm-java.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\JDK8\jdk\bin\jar.exe" -cf C:/Users/18037/Downloads/lcm/build/lcm-java/lcm.jar @java_class_filelist
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -D_JAVA_TARGET_DIR=C:/Users/18037/Downloads/lcm/build/lcm-java -D_JAVA_TARGET_OUTPUT_NAME=lcm.jar -D_JAVA_TARGET_OUTPUT_LINK= -P "P:/Program Files/cmake/share/cmake-3.24/Modules/UseJava/Symlinks.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\A8CFD6E9FFF58D29BDBB5CBB8DC89A54\LCM-JAVA.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\LCM-JAVA\CMAKELISTS.TXT
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/lcm-java/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

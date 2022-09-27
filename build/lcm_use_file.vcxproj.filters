@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\build\CMakeFiles\61795567193c63837bb71e73ba270cd3\lcmUtilities.cmake.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\build\CMakeFiles\7082bc60bff319763b48f2d31b7f4cbe\lcm_use_file.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\18037\Downloads\lcm\build\CMakeFiles\lcm_use_file" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A9A25DAA-0300-32C1-8F3A-681E06B7850F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

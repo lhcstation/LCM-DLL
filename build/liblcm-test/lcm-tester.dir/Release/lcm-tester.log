@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/liblcm-test/CMakeLists.txt
+  lcm-tester.c
+C:\Users\18037\Downloads\lcm\liblcm-test\lcm-tester.c(20,5): warning C4996: 'g_get_current_time': is deprecated. Use 'g_get_real_time' instead
+  lcm-tester.vcxproj -> C:\Users\18037\Downloads\lcm\build\liblcm-test\Release\lcm-tester.exe

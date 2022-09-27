@@ -1,0 +1,67 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/lcmgen/CMakeLists.txt
+  emit_c.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_c.c(52,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_c.c(233,44): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_c.c(240,44): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_c.c(452,36): warning C4018: “<”: 有符号/无符号不匹配
+  emit_csharp.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_csharp.c(137,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  emit_cpp.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(49,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(79,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(134,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(137,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(140,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(279,48): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(287,48): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(290,48): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_cpp.c(493,36): warning C4018: “<=”: 有符号/无符号不匹配
+  emit_go.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(53,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(70,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(93,12): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(104,15): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(351,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(618,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(689,20): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(692,20): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(711,48): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(712,48): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(741,30): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(773,28): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(772,49): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(824,63): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(825,76): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_go.c(1354,13): warning C4013: “access”未定义；假设外部返回 int
+  emit_java.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_java.c(126,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  emit_lua.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(77,33): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(326,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(513,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(678,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(933,31): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(945,31): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(992,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_lua.c(1143,23): warning C4018: “<”: 有符号/无符号不匹配
+  emit_python.c
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(76,33): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(658,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(811,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(892,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(945,35): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(952,41): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\18037\Downloads\lcm\lcmgen\emit_python.c(1014,23): warning C4018: “<”: 有符号/无符号不匹配
+  getopt.c
+C:\Users\18037\Downloads\lcm\lcmgen\getopt.c(66,40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\getopt.c(131,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\getopt.c(285,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\getopt.c(288,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  lcmgen.c
+C:\Users\18037\Downloads\lcm\lcmgen\lcmgen.c(114,24): warning C4267: “函数”: 从“size_t”转换到“char”，可能丢失数据
+C:\Users\18037\Downloads\lcm\lcmgen\lcmgen.c(729,23): warning C4018: “<”: 有符号/无符号不匹配
+  main.c
+  tokenize.c
+  正在生成代码...
+  lcm-gen.vcxproj -> C:\Users\18037\Downloads\lcm\build\lcmgen\Release\lcm-gen.exe

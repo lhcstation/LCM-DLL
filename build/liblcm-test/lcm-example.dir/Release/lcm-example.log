@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/liblcm-test/CMakeLists.txt
+  lcm-example.c
+C:\Users\18037\Downloads\lcm\liblcm-test\lcm-example.c(39,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lcm-example.vcxproj -> C:\Users\18037\Downloads\lcm\build\liblcm-test\Release\lcm-example.exe

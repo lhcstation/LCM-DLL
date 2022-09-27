@@ -1,0 +1,2 @@
+﻿P:\Program Files\MicrosoftVisualStudio2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1094,5): error MSB6006: “link.exe”已退出，代码为 1104。
+LINK : fatal error LNK1104: 无法打开文件“..\lcm\Debug\lcm.lib”

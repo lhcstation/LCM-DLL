@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\build\CMakeFiles\27a2c1fb1f6c9ac5e15966f9b4bce4a4\jide-oss-2.9.7.jar.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\build\CMakeFiles\49750c46e18bd922d67ff48f817ffa34\lcm-ext-jide-oss-jar.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\lcm-java\jchart2d-code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\18037\Downloads\lcm\build\lcm-java\jchart2d-code\CMakeFiles\lcm-ext-jide-oss-jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A9A25DAA-0300-32C1-8F3A-681E06B7850F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

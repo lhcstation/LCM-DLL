@@ -1,0 +1,30 @@
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\61795567193C63837BB71E73BA270CD3\LCMUTILITIES.CMAKE.RULE
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -E make_directory C:/Users/18037/Downloads/lcm/build
+if %errorlevel% neq 0 goto :cmEnd
+"P:\Program Files\cmake\bin\cmake.exe" -E copy C:/Users/18037/Downloads/lcm/lcm-cmake/lcmUtilities.cmake C:/Users/18037/Downloads/lcm/build/lcmUtilities.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\BUILD\CMAKEFILES\7082BC60BFF319763B48F2D31B7F4CBE\LCM_USE_FILE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18037\DOWNLOADS\LCM\CMAKELISTS.TXT
+setlocal
+"P:\Program Files\cmake\bin\cmake.exe" -SC:/Users/18037/Downloads/lcm -BC:/Users/18037/Downloads/lcm/build --check-stamp-file C:/Users/18037/Downloads/lcm/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

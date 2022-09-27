@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/liblcm-test/CMakeLists.txt
+  lcm-source.c
+C:\Users\18037\Downloads\lcm\liblcm-test\lcm-source.c(31,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18037\Downloads\lcm\liblcm-test\lcm-source.c(126,11): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  lcm-source.vcxproj -> C:\Users\18037\Downloads\lcm\build\liblcm-test\Release\lcm-source.exe

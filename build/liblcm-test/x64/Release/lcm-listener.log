@@ -1,0 +1,8 @@
+﻿P:\Program Files\MicrosoftVisualStudio2022\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project 'lcm\lcm.vcxproj' does not exist.
+P:\Program Files\MicrosoftVisualStudio2022\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project 'WinSpecific\lcm-winport.vcxproj' does not exist.
+P:\Program Files\MicrosoftVisualStudio2022\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project 'ZERO_CHECK.vcxproj' does not exist.
+listener-main.obj : error LNK2001: 无法解析的外部符号 __imp_lcm_subscribe
+listener-main.obj : error LNK2001: 无法解析的外部符号 __imp_lcm_destroy
+listener-main.obj : error LNK2001: 无法解析的外部符号 __imp_lcm_handle
+listener-main.obj : error LNK2001: 无法解析的外部符号 __imp_lcm_create
+C:\Users\18037\Downloads\lcm\build\x64\Release\lcm-listener.exe : fatal error LNK1120: 4 个无法解析的外部命令
