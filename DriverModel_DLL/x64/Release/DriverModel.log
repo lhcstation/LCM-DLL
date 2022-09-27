@@ -1,0 +1,4 @@
+﻿  DriverModel.cpp
+D:\Program Files\PTV Vision\PTV Vissim 2020\API\DriverModel_DLL\DriverModel.cpp(291,5): warning C4065: switch 语句包含“default”但是未包含“case”标签
+    正在创建库 D:\Program Files\PTV Vision\PTV Vissim 2020\API\DriverModel_DLL\Lib\Release\DriverModel.lib 和对象 D:\Program Files\PTV Vision\PTV Vissim 2020\API\DriverModel_DLL\Lib\Release\DriverModel.exp
+  DriverModel.vcxproj -> D:\Program Files\PTV Vision\PTV Vissim 2020\API\DriverModel_DLL\x64\Release\DriverModel.dll

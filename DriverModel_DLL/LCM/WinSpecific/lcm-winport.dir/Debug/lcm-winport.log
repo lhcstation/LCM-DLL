@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/18037/Downloads/lcm/WinSpecific/CMakeLists.txt
+  getopt.c
+  getopt_long.c
+  正在生成代码...
+  lcm-winport.vcxproj -> C:\Users\18037\Downloads\lcm\build\WinSpecific\Debug\lcm-winport.lib

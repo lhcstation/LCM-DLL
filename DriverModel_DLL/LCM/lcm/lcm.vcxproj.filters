@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\eventlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm_memq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm_mpudpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm_tcpq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcm_udpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\ringbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\udpm_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcmtypes\channel_port_map_update_t.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\lcmtypes\channel_to_port_t.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\windows\WinLCM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18037\Downloads\lcm\lcm\windows\WinPorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18037\Downloads\lcm\lcm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBD02FDA-8AE9-35C8-9AD0-1F5EDA592B7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
